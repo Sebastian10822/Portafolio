@@ -16,7 +16,7 @@ const HeroSection = ({ scrollToSection, handleDownloadCV }) => {
             <img
               className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-purple-500 glow-effect floating-animation"
               alt="Professional developer portrait"
-              src="public/Imagenes/favicon.png.png"
+              src="/Imagenes/favicon.png"
             />
           </div>
           
