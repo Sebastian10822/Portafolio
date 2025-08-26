@@ -6,32 +6,32 @@ const DiplomasSection = () => {
     {
       title: 'Diploma de Desarrollo Web',
       description: 'Certificado por la Universidad XYZ - 2024',
-      image: 'public/Imagenes/Diploma 1.jpg',
+      image: '/Imagenes/Diploma 1.jpg',
     },
     {
       title: 'Certificado en React',
       description: 'Emitido por Udemy - 2025',
-      image: 'public/Imagenes/diploma 2.jpg',
+      image: '/Imagenes/diploma 2.jpg',
     },
     {
       title: 'Curso Avanzado de JavaScript',
       description: 'Certificado por Platzi - 2025',
-      image: 'public/Imagenes/diploma 3.jpg',
+      image: '/Imagenes/diploma 3.jpg',
     },
     {
       title: 'Curso de Node.js',
       description: 'Certificado por Coursera - 2025',
-      image: 'public/Imagenes/diploma 4.jpg',
+      image: '/Imagenes/diploma 4.jpg',
     },
     {
       title: 'Curso de TypeScript',
       description: 'Certificado por Alura - 2025',
-      image: 'public/Imagenes/diploma 5.jpg',
+      image: '/Imagenes/diploma 5.jpg',
     },
     {
       title: 'Diploma en Bases de Datos',
       description: 'Certificado por Oracle Academy - 2025',
-      image: 'public/Imagenes/diploma 6.jpg',
+      image: '/Imagenes/diploma 6.jpg',
     },
   ];
 
