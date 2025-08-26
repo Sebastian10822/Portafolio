@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { Mail, Phone, MapPin, Github, Linkedin, ArrowRight } from 'lucide-react';
+import { Mail, Phone, MapPin, ArrowRight } from 'lucide-react';
 
-const ContactSection = ({ handleContactSubmit }) => {
+const ContactSection = () => {
   return (
     <section id="contact" className="py-20">
       <div className="container mx-auto px-6">
@@ -58,18 +58,6 @@ const ContactSection = ({ handleContactSubmit }) => {
                 </div>
               </div>
             </div>
-
-            <div className="flex space-x-4">
-              <Button size="icon" variant="outline" className="border-purple-500 hover:bg-purple-500">
-                <Github size={20} />
-              </Button>
-              <Button size="icon" variant="outline" className="border-purple-500 hover:bg-purple-500">
-                <Linkedin size={20} />
-              </Button>
-              <Button size="icon" variant="outline" className="border-purple-500 hover:bg-purple-500">
-                <Mail size={20} />
-              </Button>
-            </div>
           </motion.div>
 
           <motion.div
@@ -78,7 +66,13 @@ const ContactSection = ({ handleContactSubmit }) => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <form onSubmit={handleContactSubmit} className="glass-effect p-8 rounded-xl space-y-6">
+            <form
+              action="https://formspree.io/f/xovlrbql"
+              method="POST"
+              className="glass-effect p-8 rounded-xl space-y-6"
+            >
+              <input type="hidden" name="_subject" value="Nuevo mensaje desde tu portafolio" />
+
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2">Nombre</label>
                 <input

@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useScroll, useTransform } from 'framer-motion';
 import { Toaster } from '@/components/ui/toaster';
 import { toast } from '@/components/ui/use-toast';
+import DiplomasSection from './components/DiplomasSection';
+
+
+
 
 import ScrollProgress from '@/components/layout/ScrollProgress';
 import Particles from '@/components/layout/Particles';
@@ -12,6 +16,8 @@ import AboutSection from '@/components/sections/AboutSection';
 import SkillsSection from '@/components/sections/SkillsSection';
 import ProjectsSection from '@/components/sections/ProjectsSection';
 import ContactSection from '@/components/sections/ContactSection';
+;
+
 
 import { navLinks } from '@/data/portfolioData';
 
@@ -86,7 +92,8 @@ const App = () => {
         <AboutSection />
         <SkillsSection />
         <ProjectsSection />
-        <ContactSection handleContactSubmit={handleContactSubmit} />
+        <DiplomasSection />
+         <ContactSection handleContactSubmit={handleContactSubmit} />
       </main>
       
       <Footer />
