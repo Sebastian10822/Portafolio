@@ -5,8 +5,8 @@ export const skillsData = [
   { name: 'React', level: 90, icon: Code },
   { name: 'Node.js', level: 85, icon: Database },
   { name: 'Python', level: 80, icon: Code },
-  { name: 'UI/UX Design', level: 75, icon: Palette },
-  { name: 'Mobile Dev', level: 70, icon: Smartphone }
+  { name: 'Html', level: 75, icon: Palette },
+  { name: 'css', level: 70, icon: Smartphone }
 ];
 
 export const projectsData = [

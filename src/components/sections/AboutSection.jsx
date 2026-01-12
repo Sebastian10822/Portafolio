@@ -60,17 +60,6 @@ const AboutSection = () => {
               nuevas tecnologías y metodologías para mantenerme al día con las tendencias 
               de la industria.
             </p>
-
-            <div className="grid grid-cols-2 gap-6 mt-8">
-              <div className="glass-effect p-4 rounded-lg text-center">
-                <div className="text-3xl font-bold gradient-text">10+</div>
-                <div className="text-sm text-gray-400">Proyectos Completados</div>
-              </div>
-              <div className="glass-effect p-4 rounded-lg text-center">
-                <div className="text-3xl font-bold gradient-text">1+</div>
-                <div className="text-sm text-gray-400">Años de Experiencia</div>
-              </div>
-            </div>
           </motion.div>
         </div>
       </div>

@@ -54,7 +54,7 @@ const ContactSection = () => {
                 <MapPin className="text-purple-400 mr-4" size={24} />
                 <div>
                   <h3 className="font-semibold">Ubicación</h3>
-                  <p className="text-gray-300">Cuidad Buga, Guadarajara</p>
+                  <p className="text-gray-300">Colombia</p>
                 </div>
               </div>
             </div>

@@ -26,7 +26,7 @@ const HeroSection = ({ scrollToSection, handleDownloadCV }) => {
           
           <div className="text-xl md:text-2xl mb-8 h-16">
             <span className="typing-animation">
-              Desarrollador Full Stack & Diseñador UI/UX
+              Desarrollador Full Stack 
             </span>
           </div>
           
