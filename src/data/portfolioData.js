@@ -10,11 +10,12 @@ export const skillsData = [
 ];
 
 export const projectsData = [
-  {
-    title: 'E-Commerce Platform',
-    description: 'Plataforma completa de comercio electrónico con React, Node.js y MongoDB',
-    tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    image: 'Modern e-commerce website with shopping cart and payment integration'
+ {
+    title: "CYBERNEX STORE",
+    description: "Tienda online moderna con diseño responsive, desarrollada con HTML, CSS y JavaScript, desplegada en GitHub Pages.",
+    image: "public/Imagenes/CYBERNEX.png",
+    demo: "https://sebastian10822.github.io/CYBERNEX-STORE/",
+    github: "https://github.com/Sebastian10822/CYBERNEX-STORE"
   },
   {
     title: 'Task Management App',
