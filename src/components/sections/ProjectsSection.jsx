@@ -24,6 +24,7 @@ const ProjectsSection = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectsData.map((project, index) => (
+            // procura separar esto en un componente aparte, no dejarlo todo aqui - crea un componente para esto
             <motion.div
               key={project.title}
               initial={{ opacity: 0, y: 50 }}
@@ -36,7 +37,7 @@ const ProjectsSection = () => {
                 <img
                   className="w-full h-48 object-cover"
                   alt={`${project.title} project screenshot`}
-                  src="https://images.unsplash.com/photo-1595872018818-97555653a011" 
+                  src={project.image}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               </div>
@@ -55,31 +56,40 @@ const ProjectsSection = () => {
                     </span>
                   ))}
                 </div>
-                
-                <div className="flex gap-3">
-  <a 
-    href={project.demo}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex-1"
-  >
-    <Button size="sm" className="gradient-bg w-full">
-      <ExternalLink size={16} className="mr-2" />
-      Ver Demo
-    </Button>
-  </a>
+                <div className="flex gap-3 mt-4">
+  {project.demo && (
+    <a
+      href={project.demo}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex-1"
+    >
+      <Button size="sm" className="gradient-bg w-full">
+        <ExternalLink size={16} className="mr-2" />
+        Ver Demo
+      </Button>
+    </a>
+  )}
 
-  <a
-    href={project.github}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <Button size="sm" variant="outline" className="border-purple-500">
-      <Github size={16} />
-    </Button>
-  </a>
+  {project.github && (
+    <a
+      href={project.github}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button
+        size="sm"
+        variant="outline"
+        className="border-purple-500 text-purple-300 hover:bg-purple-500 hover:text-white"
+      >
+        <Github size={16} />
+      </Button>
+    </a>
+  )}
 </div>
 
+                
+                
               </div>
             </motion.div>
           ))}

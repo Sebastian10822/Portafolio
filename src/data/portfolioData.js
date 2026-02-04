@@ -1,5 +1,10 @@
 import { Code, Palette, Database, Smartphone } from 'lucide-react';
 
+import CyberImg from '../../public/Imagenes/cybernex.png' 
+import laureles_brasa from '../../public/Imagenes/Laureles-Brasas.png' 
+
+
+
 export const skillsData = [
   { name: 'JavaScript', level: 95, icon: Code },
   { name: 'React', level: 90, icon: Code },
@@ -7,7 +12,7 @@ export const skillsData = [
   { name: 'Python', level: 80, icon: Code },
   { name: 'Html', level: 75, icon: Palette },
   { name: 'css', level: 70, icon: Smartphone }
-];
+]; 
 
 export const projectsData = [
 
@@ -16,8 +21,8 @@ export const projectsData = [
   description: 'Aplicación web para gestión de tareas con colaboración en tiempo real, sincronización en la nube y sistema drag & drop.',
   tech: ['Vue.js', 'Firebase', 'Socket.io'],
   demo: 'https://bit.ly/cyber nex',
-  github: 'http://bit.ly/46uM2Oy',
-  image: 'cybernexImg'
+  github: 'public/Imagenes/Laureles-Brasas.png',
+  image: CyberImg 
 },
 
  {
@@ -25,8 +30,8 @@ export const projectsData = [
   description: 'Aplicación web para gestión de tareas con colaboración en tiempo real, sincronización en la nube y sistema drag & drop.',
   tech: ['Vue.js', 'Firebase', 'Socket.io'],
   demo: 'https://bit.ly/laureles-brasas',
-  github: 'https://bit.ly/laureles_brasa',
-  image: 'Clean task management interface with drag and drop functionality'
+  github: 'public/Imagenes/Laureles-brasas.png',
+  image: 'public/Imagenes/Laureles-Brasas.png'
 },
 
   {
@@ -35,7 +40,7 @@ export const projectsData = [
   tech: ['Vue.js', 'Firebase', 'Socket.io'],
   demo: 'https://TU-LINK-DEMO-AQUI.com',
   github: 'https://github.com/TU-USUARIO/TU-REPO',
-  image: 'Clean task management interface with drag and drop functionality'
+  image: ''
 },
 
 ];
