@@ -10,25 +10,34 @@ export const skillsData = [
 ];
 
 export const projectsData = [
+
+  {
+  title: 'CYBERNEX-STORE',
+  description: 'Aplicación web para gestión de tareas con colaboración en tiempo real, sincronización en la nube y sistema drag & drop.',
+  tech: ['Vue.js', 'Firebase', 'Socket.io'],
+  demo: 'https://bit.ly/cyber nex',
+  github: 'http://bit.ly/46uM2Oy',
+  image: 'cybernexImg'
+},
+
  {
-    title: "CYBERNEX STORE",
-    description: "Tienda online moderna con diseño responsive, desarrollada con HTML, CSS y JavaScript, desplegada en GitHub Pages.",
-    image: "public/Imagenes/CYBERNEX.png",
-    demo: "https://sebastian10822.github.io/CYBERNEX-STORE/",
-    github: "https://github.com/Sebastian10822/CYBERNEX-STORE"
-  },
+  title: 'Laureles-brasas',
+  description: 'Aplicación web para gestión de tareas con colaboración en tiempo real, sincronización en la nube y sistema drag & drop.',
+  tech: ['Vue.js', 'Firebase', 'Socket.io'],
+  demo: 'https://bit.ly/laureles-brasas',
+  github: 'https://bit.ly/laureles_brasa',
+  image: 'Clean task management interface with drag and drop functionality'
+},
+
   {
-    title: 'Task Management App',
-    description: 'Aplicación de gestión de tareas con colaboración en tiempo real',
-    tech: ['Vue.js', 'Firebase', 'Socket.io'],
-    image: 'Clean task management interface with drag and drop functionality'
-  },
-  {
-    title: 'Portfolio Website',
-    description: 'Sitio web de portafolio responsivo con animaciones avanzadas',
-    tech: ['React', 'Framer Motion', 'TailwindCSS'],
-    image: 'Beautiful portfolio website with modern design and animations'
-  }
+  title: 'Task Management App',
+  description: 'Aplicación web para gestión de tareas con colaboración en tiempo real, sincronización en la nube y sistema drag & drop.',
+  tech: ['Vue.js', 'Firebase', 'Socket.io'],
+  demo: 'https://TU-LINK-DEMO-AQUI.com',
+  github: 'https://github.com/TU-USUARIO/TU-REPO',
+  image: 'Clean task management interface with drag and drop functionality'
+},
+
 ];
 
 export const navLinks = [

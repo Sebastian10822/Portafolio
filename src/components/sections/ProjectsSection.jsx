@@ -57,14 +57,29 @@ const ProjectsSection = () => {
                 </div>
                 
                 <div className="flex gap-3">
-                  <Button size="sm" className="gradient-bg flex-1">
-                    <ExternalLink size={16} className="mr-2" />
-                    Ver Demo
-                  </Button>
-                  <Button size="sm" variant="outline" className="border-purple-500">
-                    <Github size={16} />
-                  </Button>
-                </div>
+  <a 
+    href={project.demo}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex-1"
+  >
+    <Button size="sm" className="gradient-bg w-full">
+      <ExternalLink size={16} className="mr-2" />
+      Ver Demo
+    </Button>
+  </a>
+
+  <a
+    href={project.github}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button size="sm" variant="outline" className="border-purple-500">
+      <Github size={16} />
+    </Button>
+  </a>
+</div>
+
               </div>
             </motion.div>
           ))}
