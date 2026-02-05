@@ -31,7 +31,7 @@ export const projectsData = [
   tech: ['Vue.js', 'Firebase', 'Socket.io'],
   demo: 'https://bit.ly/laureles-brasas',
   github: 'public/Imagenes/Laureles-brasas.png',
-  image: 'public/Imagenes/Laureles-Brasas.png'
+  image: laureles_brasa
 },
 
   {
