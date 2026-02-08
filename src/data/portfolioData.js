@@ -1,10 +1,5 @@
 import { Code, Palette, Database, Smartphone } from 'lucide-react';
 
-import CyberImg from '../../public/Imagenes/cybernex.png' 
-import laureles_brasa from '../../public/Imagenes/Laureles-Brasas.png' 
-import Motos_store from '../../public/Imagenes/Motos-store.png' 
-
-
 
 export const skillsData = [
   { name: 'JavaScript', level: 95, icon: Code },
@@ -25,18 +20,8 @@ export const projectsData = [
   github: 'https://github.com/Sebastian10822/CYBERNEX-STORE',
   image: CyberImg
 },
+
 {
-  title: 'CYBERNEX STORE',
-  description: 'Tienda online futurista con diseño moderno y enfoque tecnológico.',
-  tech: ['React', 'Vite', 'TailwindCSS'],
-  demo: 'https://sebastian10822.github.io/CYBERNEX-STORE/',
-  github: 'https://github.com/Sebastian10822/CYBERNEX-STORE',
-  image: CyberImg
-},
-
-
-
- {
   title: 'Laureles-brasas',
   description: 'Aplicación web para gestión de tareas con colaboración en tiempo real, sincronización en la nube y sistema drag & drop.',
   tech: ['Vue.js', 'Firebase', 'Socket.io'],
