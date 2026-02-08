@@ -26,7 +26,7 @@ const AboutSection = () => {
             <img
               className="rounded-2xl shadow-2xl glow-effect"
               alt="Developer working on multiple projects"
-              src="/Imagenes/1.jpg" 
+              src="Imagenes/Motos-store.png" 
             />
           </motion.div>
 

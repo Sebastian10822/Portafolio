@@ -21,7 +21,7 @@ export const projectsData = [
   description: 'Aplicación web para gestión de tareas con colaboración en tiempo real, sincronización en la nube y sistema drag & drop.',
   tech: ['Vue.js', 'Firebase', 'Socket.io'],
   demo: 'https://bit.ly/cyber nex',
-  github: 'public/Imagenes/Laureles-Brasas.png',
+  github: 'Imagenes/Laureles-Brasas.png',
   image: CyberImg 
 },
 
@@ -30,17 +30,17 @@ export const projectsData = [
   description: 'Aplicación web para gestión de tareas con colaboración en tiempo real, sincronización en la nube y sistema drag & drop.',
   tech: ['Vue.js', 'Firebase', 'Socket.io'],
   demo: 'https://bit.ly/laureles-brasas',
-  github: 'public/Imagenes/Laureles-brasas.png',
+  github: 'Imagenes/Laureles-brasas.png',
   image: laureles_brasa
 },
 
   {
-  title: 'Task Management App',
+  title: 'Motos-store',
   description: 'Aplicación web para gestión de tareas con colaboración en tiempo real, sincronización en la nube y sistema drag & drop.',
   tech: ['Vue.js', 'Firebase', 'Socket.io'],
-  demo: 'https://TU-LINK-DEMO-AQUI.com',
-  github: 'https://github.com/TU-USUARIO/TU-REPO',
-  image: ''
+  demo: 'https://motos-store.vercel.app/',
+  github: 'https://bit.ly/3OdEXvA',
+  image: 'Imagenes/Motos-store.png'
 },
 
 ];

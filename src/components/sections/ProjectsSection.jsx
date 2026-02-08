@@ -24,7 +24,8 @@ const ProjectsSection = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectsData.map((project, index) => (
-            // procura separar esto en un componente aparte, no dejarlo todo aqui - crea un componente para esto
+          
+            
             <motion.div
               key={project.title}
               initial={{ opacity: 0, y: 50 }}
