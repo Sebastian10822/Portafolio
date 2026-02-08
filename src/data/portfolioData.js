@@ -25,6 +25,15 @@ export const projectsData = [
   github: 'https://github.com/Sebastian10822/CYBERNEX-STORE',
   image: CyberImg
 },
+{
+  title: 'CYBERNEX STORE',
+  description: 'Tienda online futurista con diseño moderno y enfoque tecnológico.',
+  tech: ['React', 'Vite', 'TailwindCSS'],
+  demo: 'https://sebastian10822.github.io/CYBERNEX-STORE/',
+  github: 'https://github.com/Sebastian10822/CYBERNEX-STORE',
+  image: CyberImg
+},
+
 
 
  {
