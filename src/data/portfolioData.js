@@ -20,7 +20,7 @@ export const projectsData = [
   tech: ['React', 'Vite', 'TailwindCSS'],
   demo: 'https://sebastian10822.github.io/CYBERNEX-STORE/',
   github: 'https://github.com/Sebastian10822/CYBERNEX-STORE',
-  image: 'Imagenes/Cybernex.png'
+  image: '/Imagenes/Cybernex.png'
 },
 
 {
@@ -29,7 +29,7 @@ export const projectsData = [
   tech: ['Vue.js', 'Firebase', 'Socket.io'],
   demo: 'https://bit.ly/laureles-brasas',
   github: 'Imagenes/Laureles-brasas.png',
-  image: 'Imagenes/Laureles-Brasas.png'
+  image: '/Imagenes/Laureles-Brasas.png'
 },
 
   {
@@ -38,7 +38,7 @@ export const projectsData = [
   tech: ['Vue.js', 'Firebase', 'Socket.io'],
   demo: 'https://motos-store.vercel.app/',
   github: 'https://bit.ly/3OdEXvA',
-  image: 'Imagenes/Motos-store.png'
+  image: '/Imagenes/Motos-store.png'
 },
 
 ];
