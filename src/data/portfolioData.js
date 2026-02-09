@@ -1,4 +1,6 @@
 import { Code, Palette, Database, Smartphone } from 'lucide-react';
+image: `${import.meta.env.BASE_URL}Imagenes/Cybernex.png`
+
 
 
 
