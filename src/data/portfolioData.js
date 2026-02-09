@@ -1,4 +1,5 @@
 import { Code, Palette, Database, Smartphone } from 'lucide-react';
+import CyberImg from '../../public/Imagenes/cybernex.png'
 
 
 
@@ -19,7 +20,7 @@ export const projectsData = [
   tech: ['React', 'Vite', 'TailwindCSS'],
   demo: 'https://sebastian10822.github.io/CYBERNEX-STORE/',
   github: 'https://github.com/Sebastian10822/CYBERNEX-STORE',
-  image: 'Imagenes/Cybernex.png'
+  image: CyberImg
 },
 
 {
