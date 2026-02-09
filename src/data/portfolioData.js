@@ -22,7 +22,7 @@ export const projectsData = [
   tech: ['React', 'Vite', 'TailwindCSS'],
   demo: 'https://sebastian10822.github.io/CYBERNEX-STORE/',
   github: 'https://github.com/Sebastian10822/CYBERNEX-STORE',
-  image: '/Imagenes/Cybernex.png'
+  image: `${import.meta.env.BASE_URL}Imagenes/Cybernex.png`
 },
 
 {
