@@ -18,10 +18,10 @@ export const projectsData = [
 {
   title: 'CYBERNEX STORE',
   description: 'Tienda online futurista con diseño moderno y enfoque tecnológico.',
-  tech: ['React', 'Vite', 'TailwindCSS'],
+  tech: ['React', 'Vite', 'TailwindCSS html'],
   demo: 'https://sebastian10822.github.io/CYBERNEX-STORE/',
   github: 'https://github.com/Sebastian10822/CYBERNEX-STORE',
-  image: '/Imagenes/Cybernex.png'
+  image: 'src/assets/images'
 },
 
 {
